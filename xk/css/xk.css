@@ -1,0 +1,54 @@
+ /* 基本样式 */
+body {font-size: 14px; letter-spacing: 1.2px}
+.title {color: #458994; font-weight: 700}
+a {color: steelblue; text-decoration: none}
+a:visited {color: steelblue}
+a:hover {text-decoration: underline; font-weight: 700;}
+/* 表单样式 */
+form {margin: 10px 0}
+form .label {display: inline-block; width: 70px; margin-right: 10px}
+form.style1 {text-align: center}
+form.style1 div.outer {border: 1px solid #458994; display: inline-block}
+form.style1 div.title {
+    color: white; background-color: #458994; font-size: 20px;
+    padding-top: 12px; padding-bottom: 8px; margin: 1px
+}
+form.style1 div.inter {padding: 10px; text-align: left}
+input,select {font-size: 13px; padding: 3px 1px}
+input[type=submit] {
+    padding: 4px 15px; color: steelblue; background-color: #eeeeee; 
+    border: 1px solid steelblue; cursor: pointer
+}
+input[type=submit].big {font-size: 15px; padding: 7px 30px}
+input[type=submit].text {
+    font-size: 14px; padding: 1px 2px; color: steelblue; 
+    background-color: white; border-width: 0
+}
+input[type=submit]:hover {font-weight: 700}
+textarea {letter-spacing: 1.2px; line-height: 1.5}
+form .errMsg {font-size: 13px; color: red}
+/* 水平导航栏样式 */
+.nav {
+    width:90%; background-color: #eeeeee; margin: 5px auto 5px auto
+}
+.nav .left {float: left; padding: 5px 10px 5px 10px}
+.nav .right {float: right; padding: 5px 10px 5px 10px}
+.nav .current {background-color: steelblue; color: white}
+/* 翻页导航栏样式 */
+.pager a, .pager input {
+    float: left; padding: 2px 3px; margin: 2px 3px; color: steelblue; border: 1px outset steelblue; 
+    font-size: 13px
+}
+.pager span {
+    float: left; padding: 2px 3px; margin: 2px 3px; color: #458994
+}
+.pager span.current {
+    margin: 3px 4px; font-weight: 700
+}
+/* 数据表格样式 */
+table {border-width: 0; margin: 10px 0; border-collapse: collapse; font-size: 14px}
+tr {height: 30px}
+thead {
+    color: #458994; border-top: 1px solid #458994; border-bottom: 2px solid #458994
+}
+tfoot {color: #458994; border-top: 1px solid #458994}
